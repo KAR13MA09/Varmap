@@ -18,11 +18,10 @@ def __banner__():
                ___
  _____          H    
 |  |  |___ ___ [,] _____ ___ ___  {1.2.5}
-|  |  | .'|  _|[)]|     | .'| . | {Pham Chien}
+|  |  | .'|  _|[)]|     | .'| . | { KAR13MA09 }
  \___/|__,|_|  [(]|_|_|_|__,|  _|
-                V           |_|   ghostmanews.blogspot.com 
-        Copyright : Pham Chien
-        Team : GhostMan Security
+                V           |_|   Ngtrinhtuantu.c1.biz 
+        Copyright : Nguyen Trinh Tuan Tu
 ''')
 	print(time_now)
 	print("")
@@ -330,6 +329,21 @@ def __session__():
 						'/admin/login.php',
 						'/login.php',
 						'/admin.php',
+                        '/bb-admin/admin.html',					
+                        '/admincontrol.php',					
+					    '/controlpanel.html',
+                        '/adminLogin.php',
+						'/panel-administracion/login.php',
+						'/administratorlogin.php',
+						'/admin1',
+						'/admin2.php',
+						'/admin3',
+						'/memberadmin.php',					
+					    '/adm/index.php',
+					    '/adminarea/admin.php',
+						'/user.html
+						'/admloginuser.php',
+						'/wp-login.php',	
 					]
 					for check_admin in payloads_panel:
 						headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"}

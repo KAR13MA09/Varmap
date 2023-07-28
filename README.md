@@ -6,7 +6,7 @@ Technology is constantly evolving, and websites have become an integral part of 
 # install
 
 1. open terminal or termux
-2. git clone https://github.com/Phamchie/varmap
+2. git clone https://github.com/KAR13MA09/Varmap
 3. cd varmap
 4. pip3 install -r setup.txt or python3 setup.py
 5. python3 varmap.py
